@@ -390,13 +390,19 @@
     margin-left: 15px;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-around;
-    height: 489px;
+
+.footer{
+    height: auto;
     margin-top: 80px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 50px;
     align-items: center;
     background: rgba(255, 255, 255, 0.10);
+}
+.footer-one {
+    display: flex;
+    justify-content: space-around;
+   
 
 }
 .footer-text{
@@ -415,6 +421,14 @@
     gap: 150px;
     
 }
+.hrline{
+    width: auto;
+    color: antiquewhite;
+}
+.right{
+    color: #FFF;
+    text-align: center;
+}
 
 
 /* Responsive design */
@@ -424,6 +438,24 @@
         width: 80%;
         height: auto;
         margin: 0 auto;
+    }
+    .point{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer{
+        height: auto;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.10);
+    }
+
+    .footer-one {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
     }
 
     .team-title {
