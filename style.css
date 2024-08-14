@@ -290,6 +290,7 @@
     margin: 0 auto;
     margin-top: 6rem;
 }
+
 /* .run-texts{
     margin-top: 6rem;
 } */
@@ -316,6 +317,106 @@
     border-radius: 18px;
 }
 
+.team {
+    margin-top: 100px;
+    margin-bottom: 58px;
+}
+
+.team-texts {
+    text-align: center;
+    background: #000;
+    margin-bottom: 58px;
+}
+
+.team-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.team-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    align-self: stretch;
+}
+
+.trainer {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.trainer img {
+    height: 272px;
+    width: 272px;
+    border-radius: 18px;
+}
+
+.group-one {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.group-two {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.trainer-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.trainer-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name {
+    margin-top: -130px;
+    margin-left: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 489px;
+    margin-top: 80px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.10);
+
+}
+.footer-text{
+    width: 40%;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    /* 38.4px */
+}
+.point{
+    display: flex;
+    gap: 150px;
+    
+}
+
+
 /* Responsive design */
 
 @media screen and (max-width: 576px) {
@@ -323,6 +424,13 @@
         width: 80%;
         height: auto;
         margin: 0 auto;
+    }
+
+    .team-title {
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 900;
+        margin-bottom: 1rem;
     }
 
 
@@ -438,6 +546,7 @@
         align-items: center;
         gap: 20px;
     }
+
     .run {
         display: flex;
         flex-direction: column;
@@ -445,10 +554,29 @@
         width: 80%;
         margin: 0 auto;
         margin-top: 3rem;
-        gap: 1rem;
-    }
-    .run-texts{
+        border-radius: 18px;
+        background: gray;
+        padding: 30px 32px 29px 54px;
+        justify-content: flex-end;
         align-items: center;
+        gap: 10rem;
+        align-self: stretch;
+    }
+
+    .run-texts {
+        align-items: center;
+    }
+
+    .group-one {
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .group-two {
+        display: flex;
+        flex-direction: column;
+        gap: 30px
     }
 }
 
